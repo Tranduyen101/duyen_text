@@ -1,0 +1,95 @@
+@media (min-width: 64em) {
+   
+}
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #content .content-section {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .place-buy-btn {
+        padding: 15px 16px;
+        line-height: 2rem;
+    }
+    .contact-form .form-control{
+        padding: 15px;
+    }
+    .contact-info{
+        font-size: 18px;
+    }
+    #footer .social-list a{
+       font-size: 48px;
+       margin: 0 8px;
+    }
+    #footer .copyright {
+        padding: 12px 0;
+        display: inline-block;
+    }
+    
+}
+
+@media (max-width: 46.1875em) {
+    #content .content-section {
+        max-width: 800px;
+        width: 100%;
+        padding-left: 19px;
+        padding-right: 9px;
+    }
+
+    #nav {
+        display: block;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav .subnav {
+        position: inherit;
+        background: #333;
+        padding: 5px 41px;
+     }
+     #nav .subnav a{
+        color: white;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #header .sreach-icon {
+        display: none;
+    }
+    #header .menu-moblie-btn{
+        display: block;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #slider{
+        width: 103%;
+    }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    #main{
+        overflow-x: hidden;
+    }
+    
+    .contact-form{
+        margin-top: 16px;
+    }
+    .s-mt-8{
+        margin-top: 8px;
+    }
+    .s-col-full,
+    .s-full-width{
+        width: 100%;
+    }
+}
